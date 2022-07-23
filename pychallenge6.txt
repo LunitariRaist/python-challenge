@@ -1,0 +1,13 @@
+<!-- IRC: #pythonchallenge at FreeNode -->
+
+<!--
+find rare characters in the mess below:
+-->
+
+<!-- urllib may help. DON'T TRY ALL NOTHINGS, since it will never 
+end. 400 times is more than enough. -->
+
+<!-- peak hell sounds familiar ? -->
+</peakhell>
+
+<!-- <-- zip -->
