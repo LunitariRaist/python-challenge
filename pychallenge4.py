@@ -4,11 +4,14 @@ import urllib.request
 # urllib may help. DON'T TRY ALL NOTHINGS, since it will never 
 # end. 400 times is more than enough.
 
+# open url and read the response
+# loop over the response to get a new url
+# update the request to include the new url
 
 def get_nothings():
     nothing = '12345'
     i = 0
-    while i < 10:
+    while i < 400:
         url = f'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing={nothing}'
         with urllib.request.urlopen(url) as response:
             html = response.read()
@@ -21,8 +24,4 @@ def get_nothings():
     
 
 get_nothings()
-# open url and create a variable based on reading the response
-# loop over the response to get a new url
-# update the request to
-
 
