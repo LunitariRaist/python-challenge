@@ -1,3 +1,5 @@
+import zipfile
+
 def open_files():
     nothing = 'pychallenge6/90052.txt'
     i = 0
@@ -15,7 +17,17 @@ def open_files():
     f.close()
     
 
-open_files()
+# open_files()
 
-# collect the comments
 
+# 46145.txt - collect the comments
+
+with zipfile.ZipFile('channel.zip', 'r') as pyzip:
+    output = ''
+    for i in pyzip.infolist():
+        for c in str(i.comment):
+            if c.isalpha() and c.isupper() and c not in output:
+                output += c
+    print(output)
+
+# EYONGX = OXYGEN
