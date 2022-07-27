@@ -22,3 +22,6 @@ def find_unique_characters():
     return new_list
 
 print(find_unique_characters())
+
+# ['%', '$', '@', '_', '^', '#', ')', '&', '!', '+', ']', '*', '}', '[', '(', '{', '\n', 
+# 'e', 'q', 'u', 'a', 'l', 'i', 't', 'y']

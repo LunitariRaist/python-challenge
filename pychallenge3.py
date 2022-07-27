@@ -36,3 +36,14 @@ test_list = ['U', 'Z', 'G', 's', 'I', 'E', 'T', 'M', 'V', 'Z', 'B', 'a', 'R', 'Z
 
 check_letters(char_list)
 # check_letters_lax(test_list)
+
+# ['I', 'Q', 'N', 'l', 'Q', 'S', 'L']
+# ['O', 'E', 'K', 'i', 'V', 'E', 'Y']
+# ['Z', 'A', 'D', 'n', 'M', 'C', 'Z']
+# ['Z', 'U', 'T', 'k', 'L', 'Y', 'N']
+# ['C', 'N', 'D', 'e', 'H', 'S', 'B']
+# ['O', 'I', 'X', 'd', 'K', 'B', 'F']
+# ['X', 'J', 'V', 'l', 'G', 'Z', 'V']
+# ['Z', 'A', 'G', 'i', 'L', 'Q', 'Z']
+# ['C', 'J', 'A', 's', 'A', 'C', 'F']
+# ['K', 'W', 'G', 't', 'I', 'D', 'C']
