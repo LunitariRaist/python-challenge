@@ -45,3 +45,5 @@ for x,y in zip(second[0::2], second[1::2]):
     turtle.goto(x - 320, y - 240)
 turtle.penup()
 turtle.done()
+
+# answer: bull

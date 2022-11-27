@@ -22,3 +22,5 @@ url = 'map'
 print(shift_characters_by_two(url))
 
 # i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long. using string.maketrans() is recommended. now apply on the url.
+
+# answer: ocr

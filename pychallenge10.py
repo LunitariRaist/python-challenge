@@ -36,3 +36,5 @@ num = '1'
 for i in range(0, 31):
     print(len(num))
     num = sequencer(num)
+
+    # answer: 5808

@@ -30,4 +30,4 @@ with zipfile.ZipFile('channel.zip', 'r') as pyzip:
                 output += c
     print(output)
 
-# EYONGX = OXYGEN
+# answer = OXYGEN

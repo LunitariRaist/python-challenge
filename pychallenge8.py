@@ -10,3 +10,5 @@ output2 = bz2.decompress(byte_pw)
 
 print(output)
 print(output2)
+
+# answer: un: huge, pw: file

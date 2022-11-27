@@ -47,3 +47,5 @@ check_letters(char_list)
 # ['Z', 'A', 'G', 'i', 'L', 'Q', 'Z']
 # ['C', 'J', 'A', 's', 'A', 'C', 'F']
 # ['K', 'W', 'G', 't', 'I', 'D', 'C']
+
+# answer: linkedlist
