@@ -1,31 +1,14 @@
-from PIL import ImageShow, Image
+data = open("pychallenge12.gfx", "rb").read()
+new_list = []
+for i in range(0, 67575, 5):
+    new_list.append(data[i])
 
-img = Image.open("C:/Users/sdomi/Documents/Code/PythonChallenge/pychallenge12.jpg")
+print(len(new_list))
 
-original_image_pixels = list(img.getdata())
-print(len(original_image_pixels))
+tuples_list = []
+for i in range(0, 13515, 3):
+    tuples_list.append((new_list[i], new_list[i+1], new_list[i+2]))
 
-def get_odds(image_array):
-    new_list = []
-    for i in range(0, len(image_array), 5):
-        # manipulate the RGB of the original image
-        # if image_array[i][0] == 5 or image_array[i][1] == 5 or image_array[i][2] == 5:
-        new_list.append(image_array[i])
-        # else:
-            # new_list.append((255, 255, 255))
-    return new_list
-
-img_data = get_odds(original_image_pixels)
-
-print(len(img_data))
-
-# for i in range(0, 100):
-#     print(img_data[i])
-
-img2 = Image.new('RGB', [640, 480])
-
-img2.putdata(img_data)
-
-ImageShow.show(img2)
+print(tuples_list)
 
 # answer: 
